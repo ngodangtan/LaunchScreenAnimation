@@ -13,6 +13,7 @@
 		D663C954256778560084F327 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D663C952256778560084F327 /* Main.storyboard */; };
 		D663C956256778570084F327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D663C955256778570084F327 /* Assets.xcassets */; };
 		D663C959256778570084F327 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D663C957256778570084F327 /* LaunchScreen.storyboard */; };
+		D663C96225677BBF0084F327 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D663C96125677BBF0084F327 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D663C955256778570084F327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D663C958256778570084F327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D663C95A256778570084F327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D663C96125677BBF0084F327 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D663C955256778570084F327 /* Assets.xcassets */,
 				D663C957256778570084F327 /* LaunchScreen.storyboard */,
 				D663C95A256778570084F327 /* Info.plist */,
+				D663C96125677BBF0084F327 /* HomeViewController.swift */,
 			);
 			path = LaunchScreenAnimation;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				D663C951256778560084F327 /* ViewController.swift in Sources */,
 				D663C94D256778560084F327 /* AppDelegate.swift in Sources */,
 				D663C94F256778560084F327 /* SceneDelegate.swift in Sources */,
+				D663C96225677BBF0084F327 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
