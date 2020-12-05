@@ -39,7 +39,8 @@ class ViewController: UIViewController {
    
         UIView.animate(withDuration: 1.5, animations: {
             self.imageView.alpha = 0
-        }) { done in
+        }) { [weak self]done in
+            guard let self = self else {return}
             if done {
                 DispatchQueue.main.asyncAfter(deadline: .now()+0.5) {
                     let viewController = HomeViewController()
